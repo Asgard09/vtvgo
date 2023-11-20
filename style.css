@@ -1,0 +1,331 @@
+body{
+    border-top: 0.05rem solid rgb(119, 126, 132);
+    margin-top: 0.5rem;
+    display: block;
+}
+.page1{
+    position: absolute;
+    margin-left: 19rem;
+    margin-right: 19rem;
+    margin-top: 1rem;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+.nav-item{
+    display: flex;
+}
+.nav img{
+    width: 7rem;
+    height: auto;
+}
+.nav-child{
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left:0;
+    width: 100%;
+    /* background-color: ; */
+    opacity: 0;
+    visibility: hidden; 
+    padding-bottom: 2rem;
+}
+.nav-child-list{
+    
+}
+.nav-child-list img{
+    margin-top: 2rem;
+    width: 7rem;
+    background-color: transparent;
+    height: auto;
+}
+.nav-child-item{
+    background-color: transparent;
+
+}
+li{
+    list-style-type: none;
+}
+.nav:hover .nav-child{
+    visibility: visible;
+    opacity: 0.8;
+}
+.nav-2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.tivi{
+    margin-top: 1.5rem;
+    position: relative;
+    background-color: azure;
+    width: 114.5rem;
+    height: 50rem;
+}
+#phim{
+    position: absolute;
+    margin: 1rem;
+    width: 84rem;
+    height: 48rem;
+}
+.lich{
+    position: absolute;
+    margin-left: 87rem;
+    margin-top: 1rem;
+    width: 26.6rem;
+    height: 6.3rem;
+    background-color: red;
+    
+}
+.tieude{
+    background-color: red;
+    position: absolute;
+    color: aliceblue;  
+    font-size: 120%;
+    font-family:sans-serif
+}
+.lichphatsong{
+    margin-top: 1rem;
+    margin-left:  2rem;
+    margin-bottom: 0.7rem;
+    background-color: rgb(224, 24, 24);
+}
+#mongoac{
+    background-color: rgb(224, 24, 24);
+    margin-top: 1.3rem;
+    margin-left: 2rem;
+}
+#dongngoac{
+    background-color: rgb(224, 24, 24);
+    margin-left: 22.6rem;
+}
+#date{
+    background-color: rgb(224, 24, 24);
+    margin-left: 7rem;
+}
+.lich.tieude{
+    background-color: rgb(224, 24, 24);
+}
+#icon_lich{
+    background-color: rgb(224, 24, 24);
+}
+#text_lich{
+    background-color: rgb(224, 24, 24);
+}
+.ngaythang{
+    background-color: rgb(224, 24, 24);
+    border-top: 1px solid green;
+}
+
+.danhsach{
+    background-color: azure;
+    margin-top: 1rem;
+    overflow: scroll;
+    width: 26.6rem;
+    height: 37rem;
+    border-bottom: 1px solid rgb(204, 204, 218);
+}
+.danhsach::-webkit-scrollbar {
+    width: 6px;
+    height: 0px;
+} 
+.danhsach::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #716666;
+}
+.danhsach::-webkit-scrollbar-thumb {
+    background-color: rgb(224, 24, 24);
+}
+.list{
+    margin-top: 1.5rem;
+    border-bottom: 1px solid rgb(204, 204, 218);
+    background-color: azure;
+}
+.list a{
+    background-color:transparent;
+    text-decoration: none;
+}
+.hour{
+    font-size: 130%;
+}
+.filmname{
+    font-size: 110%;
+    padding-left: 7rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.iconContact{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    gap:3rem;
+    background-color: transparent;
+}
+.iconContact i{
+    background-color: azure;
+}
+.iconContact a{
+    text-decoration: none;
+}
+.contact{
+    font-size: 2rem;   
+    background-color: transparent;
+}
+#lightning{
+    color: green;
+}
+#heart{
+    color:red;
+}
+#facebook{
+    color:blue;
+}
+#undo{
+    color:red;
+}
+.page2{
+    position: relative;
+    margin-left: 19rem;
+    margin-right: 19rem;
+    margin-top: 59rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.header2_{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+.nav-2_{
+    /* display: flex; */
+    /* padding-top: 1rem; */
+    margin-bottom: 0.5rem;
+}
+.nav-2-child{
+    display: flex;
+    justify-content: space-between;
+    /* width: 76rem; */
+}
+.vtvgo{
+    height: 4rem;
+    width: auto;
+}
+.text_vtvgo{
+    display: flex;
+    text-decoration: none;
+    padding-top: 2rem;
+    padding-left: 1rem ;
+    padding-right: 1rem;
+    color: aliceblue;
+    font-size: 160%;
+    font-family:sans-serif;
+    font-weight: lighter;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+input[type="search"] {
+    margin-left: 10rem;
+    padding-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 27rem;
+    height: 3.6rem;
+    color: aliceblue;
+    font-size: 150%;
+}
+
+.search-icon {
+    font-size: 2rem;
+    position: absolute;
+    left: 12rem; 
+    color: #a8afb4;
+}
+footer{
+    margin-top: 7rem;
+    padding-top: 1rem;
+    border-top: 1px solid grey;
+}
+.contact{
+    display: flex;
+    gap: 60rem;
+    margin-bottom: 3rem;
+}
+.download{
+    display: flex;
+    gap: 2rem
+}
+#sanphamcua{
+    background-color: transparent;
+    margin-top: 1rem;
+    color: aliceblue;
+    font-size: 60%;
+}
+#vtvdigital{
+    height: 2rem;
+    width: auto;
+}
+.vtvdgt{
+    display: flex;
+    gap: 1rem;
+    background-color: transparent;
+}
+#thongtin{
+    color: gray;
+    font-size: 130%;
+    float: right;
+    margin-top: -4rem;
+}
+#dieukhoan{
+    color: azure;
+    font-size: 180%;
+    text-decoration: none;
+}
+
+/* Thêm các thuộc tính hover cho trang 2 */
+.header2_ a:hover{
+    color: rgb(224, 24, 24);
+    margin-top: -1px;
+    border-top: 2px solid red ;
+}
+.item1 a:hover{
+    color: rgb(224, 24, 24);
+}
+.tintuc-link:hover{
+    color: rgb(224, 24, 24);
+}
+.side:hover{
+    border: 1px solid red;
+    color: red;
+}
+.xemthem a{
+    font-style: italic;
+    color: grey;
+    font-weight:lighter; 
+    float: right;
+}
+#trang-chu-div{
+    color: rgb(224, 24, 24);
+    margin-top: -1px;
+    border-top: 2px solid red ;
+}
+.on-air-film{
+    color: red;
+    font-weight: bold;
+}
+.phim-chua-chieu{
+    color: grey;
+    opacity: 0.7;
+}

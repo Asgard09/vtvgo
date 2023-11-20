@@ -1,0 +1,297 @@
+:root{
+    --white-color: #fff;
+    --back-color: #000;
+    --text-color: #333;
+}
+*{
+    box-sizing: inherit;
+    background-color:aliceblue;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.2px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+p{
+    font-size: 1rem;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.vtvgo{
+    height: 4rem;
+    width: auto;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 19rem;
+    padding-right: 19rem;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+input[type="search"] {
+    margin-left: 10rem;
+    padding-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 65rem;
+    height: 3.6rem;
+    color: aliceblue;
+    font-size: 150%;
+}
+#lichphatsong{
+    border-radius: 50px;
+    height: 3.6rem;
+    color: grey;
+}
+.search-icon {
+    font-size: 2rem;
+    position: absolute;
+    right: 2rem; 
+    color: #a8afb4;
+  
+}
+
+.login{
+    font-size: 150%;
+    padding-top: 1rem;
+    color: grey;
+}
+.login a{
+    color: grey;
+}
+.header-nav{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed grey;
+}
+
+.subnav{
+    background-color: ;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 19rem;
+    padding-right: 19rem;
+    margin-top: 3rem;
+    padding-bottom: 2.5rem;
+    border-bottom: #a8afb4 1px solid;
+}
+.subnav-contact{
+    margin-top: -0.5rem;
+    font-size: 2rem;
+    gap: 1rem;
+    display: flex;
+}
+.subnav-kenh{
+    font-size: 150%;
+    display: flex;
+    gap: 2rem;
+    
+}
+.subnav-kenh a{
+    color: grey;
+}
+#main-chanel{
+    color: #000;
+    font-weight: bold;
+}
+.tivi{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding-left: 19rem;
+    padding-right: 19rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color:white;
+}
+.logo-kcong img{
+    width:84rem;
+    height: 48rem;
+    background-color: transparent;
+}
+.empty-space{
+    height: 48rem;
+    width: 40rem;
+    border: #000 solid 1px;
+    background-color: transparent;
+    position: relative;
+}
+.tivi-contact{
+    font-size: 3rem;
+    display: flex;
+    gap: 3rem;
+    margin-top: 42rem;
+    bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: white;
+    padding-top: 1rem;
+    border-top: 1px solid black;
+}
+.tivi-contact i{
+    background-color: white;
+}
+#lightning{
+    color: green;
+}
+#heart{
+    color:red;
+}
+#facebook{
+    color:blue;
+}
+#undo{
+    color:red;
+}
+
+.nav-phu img{
+    width: 1.5rem;
+    height: auto;
+}
+.nav-phu{
+    background-color: white;
+    padding-top: 1rem;
+}
+.nav-phu a{
+    background-color: white;
+    font-size:150%;
+    margin-left: 2rem;
+}
+#main-nav-phu{
+    color: red;
+}
+.nav-phu a:hover{
+    text-decoration: underline;
+}
+.subnav-kenh a:hover{
+    font-weight: bold;
+}
+.list-nav img{
+    width: 21rem;
+    height: 21rem;
+    filter: brightness(40%);
+}
+.list-nav{
+    display: flex;
+    gap: 2rem;
+    overflow: scroll;
+    margin-left: 19rem;
+    margin-right: 19rem;
+    width: 115rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
+}
+.list-nav img {
+    transition: transform 0.3s ease-out;
+}
+
+.list-nav img:hover {
+    transform: scale(1.2); 
+    filter: brightness(100%);
+}
+.list-nav::-webkit-scrollbar {
+    width: 0px;
+    height: 5px;
+} 
+.list-nav::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #716666;
+}
+.list-nav::-webkit-scrollbar-thumb {
+    background-color: rgb(184, 224, 24);
+}
+.bang-tin{
+    padding-left: 19rem;
+    padding-right: 19rem;
+
+}
+.name{
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-left: 4px solid red;
+}
+.dt img{
+    width: 21rem;
+    height: auto;
+}
+.dt img:hover {
+    filter: brightness(50%);
+}
+
+.dt a{
+    font-weight: bold;
+    font-size: 150%;
+    line-height: 2rem;
+    color:#5a5454;
+    
+}
+.dt{
+    display: flex;
+}
+.dt1:hover a{
+    color: red;
+}
+.dt a:hover{
+    color: red;
+}
+.dt1{
+    flex-basis: 25%;
+}
+.pre-footer{
+    background-color: #a8afb4;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+footer{
+    padding-top: 5rem;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 10rem;
+}
+.contact{
+    background-color: transparent;
+}
+#sanphamcua{
+    margin-top: 0.8rem;
+    background-color: transparent;
+    color: aliceblue;
+
+    font-size: 160%;
+}
+#vtvdigital{
+    background-color: transparent;
+    height: 2rem;
+    width: auto;
+}
+.vtvdgt{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: transparent;
+}
+.thongtin{
+    color: gray;
+    font-size: 130%;
+    margin-top: 2rem;
+    background-color: transparent;
+}
+
+

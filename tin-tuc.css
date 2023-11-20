@@ -1,0 +1,338 @@
+:root{
+    --white-color: #fff;
+    --back-color: #000;
+    --text-color: #333;
+}
+*{
+    box-sizing: inherit;
+    background-color:#000;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.2px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+p{
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+.page_tin-tuc{
+    position: relative;
+}
+.first{
+    
+}
+.header{
+    border-top: 1px solid grey;
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.header a:hover{
+    color: rgb(224, 24, 24);
+    margin-top: -0.5rem;
+    padding-top: 2.35rem;
+    border-top: 2px solid red ;
+}
+#main-choice{
+    color: rgb(224, 24, 24);
+    margin-top: -0.5rem;
+    padding-top: 2.35rem;
+    border-top: 2px solid red ;
+}
+.header-nav-item{
+    display: flex;
+    justify-content: space-between;
+}
+.text_vtvgo{
+    display: flex;
+    text-decoration: none;
+    padding-top: 2rem;
+    padding-left: 1rem ;
+    padding-right: 1rem;
+    color: aliceblue;
+    font-size: 180%;
+    font-family:sans-serif;
+    font-weight: lighter;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+input[type="search"] {
+    margin-left: 10rem;
+    padding-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 27rem;
+    height: 3.6rem;
+    color: aliceblue;
+    font-size: 150%;
+}
+
+.search-icon {
+    font-size: 2rem;
+    position: absolute;
+    left: 12rem; 
+    color: #a8afb4;
+  
+}
+.vtvgo{
+    height: 4rem;
+    width: auto;
+}
+
+.header-news-list{
+    display: flex;
+    justify-content: space-between;
+    gap:4rem;
+    overflow-x: scroll;
+}
+.news-content img{
+    width: 27rem;
+    height: auto;
+}
+.news-content:hover{
+    background-color: chocolate;
+    border: 2px solid red;
+}
+.news-content h2{
+    background-color: transparent;
+}
+.header-news-list::-webkit-scrollbar {
+    width: 0px;
+    height: 5px;
+} 
+.header-news-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #716666;
+}
+.header-news-list::-webkit-scrollbar-thumb {
+    background-color: rgb(184, 224, 24);
+}
+.news-content{
+    height: 26rem;
+}
+.news-content-text{
+    margin-top: 1rem;
+    line-height: 2rem;
+    color: azure;
+}
+
+.container{  
+    background-color: azure;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 6rem repeat(19,6rem) ;
+    padding-right: 18rem;
+    padding-left: 18rem;
+    padding-top: 5rem;
+    column-gap: 2rem;
+}
+.side-link a{
+    color: #333;
+}
+.side-link a:hover{
+    color: red;
+    border-left: 3px solid red;
+    padding-left: 2rem;
+}
+#link1{
+    color: red;
+    border-left: 3px solid red;
+    padding-left: 2rem;
+}
+.side-link{
+    grid-column: 1/2;
+    font-size: 200%;
+    font-weight: bold;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    line-height: 2rem;
+    background-color: transparent;
+}
+.news-content-main{
+    background-color: transparent;
+}
+.news-content-main::before{
+    background-image: url('image/play-icon.png');
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28rem;
+    height: auto;
+    background-size: cover;
+    opacity: 0;
+}
+.news-content-main::after{
+    opacity: 1;
+}
+.news-content-main:hover h2{
+    color: red;
+}
+.news-content-main:hover{
+    border: 1px solid red;
+}
+.news-content-main:hover img{
+    filter: brightness(70%);
+}
+.main-news{
+  
+}
+.news-content-main-text{
+    margin-top: 1rem;
+    line-height: 2rem;
+    background-color: transparent;
+    color:#333;
+}
+.news-content-main img{
+    width: 28rem;
+    height: auto;
+}
+#column11 {
+    grid-column:2/3 ;
+    grid-row:1/5 ;
+}
+#column12 {
+    grid-column:2/3 ;
+    grid-row:5/9 ;
+}
+#column13 {
+    grid-column:2/3 ;
+    grid-row: 9/13;
+}
+#column21 {
+    grid-column:3/4 ;
+    grid-row:1/5 ;
+}
+#column22 {
+    grid-column: 3/4;
+    grid-row:5/9 ;
+}
+#column23 {
+    grid-column:3/4 ;
+    grid-row:9/13 ;
+}
+#column31 {
+    grid-column:4/5 ;
+    grid-row:1/5 ;
+}
+#column32 {
+    grid-column:4/5 ;
+    grid-row:5/9 ;
+}
+#column33 {
+    grid-column:4/5 ;
+    grid-row:9/13 ;
+}
+
+.next-page{
+    background-color: azure;
+    color: azure;
+    font-size: 200%;
+    justify-content: space-between;
+    padding-top:2.5rem;
+    grid-column: 2/5;
+    grid-row: 13/14;
+    justify-content: space-between;
+    display: flex;
+    gap: 2rem;
+}
+.next-page-item span{
+   
+}
+#mid{
+    padding-left: 31rem;
+    padding-right: 31rem;
+    background-color: red;
+}
+.next-page-item{
+    background-color: azure;
+}
+.pre a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: red;
+}
+.next a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: red;
+}
+
+
+footer{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid grey;
+    justify-content: space-between;
+    padding-left: 17rem;
+    padding-right: 17rem;
+}
+.contact{
+    display: flex;
+    gap: 60rem;
+    margin-bottom: 3rem;
+}
+.download{
+    display: flex;
+    gap: 2rem
+}
+#sanphamcua{
+    background-color: transparent;
+    margin-top: 1rem;
+    color: aliceblue;
+    font-size: 60%;
+}
+#vtvdigital{
+    height: 2rem;
+    width: auto;
+}
+.vtvdgt{
+    display: flex;
+    gap: 1rem;
+    background-color: transparent;
+}
+#thongtin{
+    color: gray;
+    font-size: 130%;
+    float: right;
+    margin-top: -4rem;
+}
+#dieukhoan{
+    color: azure;
+    font-size: 180%;
+    text-decoration: none;
+}
+
+.iconContact{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    gap:3rem;
+    background-color: transparent;
+}
+.iconContact i{
+    background-color: azure;
+}
+.iconContact a{
+    text-decoration: none;
+}
+.contact{
+    font-size: 2rem;   
+    background-color: transparent;
+}
